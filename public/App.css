@@ -1,0 +1,28 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+@media only screen and (max-width: 480px) {
+  /* hide element on small screens */
+  .my-element {
+  display: none;
+  }
+  }
+  
+  @media only screen and (min-width: 480px) and (max-width: 1024px) {
+  /* show element on medium-sized screens */
+  .my-element {
+  display: block;
+  }
+  .myContainer{
+    padding-left: '80vw';
+  }
+  }
+
+
+html, head{
+  background-color: black;
+  color: white;
+};
+
+div{
+  color: white;
+};

@@ -7,7 +7,6 @@ import myContact from './contact.css'
 export default function Contact(){
     return (
         <Container className={{myContact}}>
-            <h1> Contact Me: </h1>
             <div>
             <Phone fontSize="large" />
             <a href="#" style={{textDecoration: 'none', paddingLeft: '1vw', pointerEvents: 'none'}}> +91-8660-488087

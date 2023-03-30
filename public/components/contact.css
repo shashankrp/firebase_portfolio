@@ -1,14 +1,10 @@
-@media only screen  and (min-width: 100px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     /* hide element on small screens */
     
     .myContact{
-        padding-left: 8vh;
-        padding-top: 24vh;
-        padding-bottom: 28vh;
-    }
-    .myContact h1{
-      padding-right: 20vw;
-      padding-bottom: 2vh;
+        padding-left: 10vh;
+        margin-top: 26vh;
+        padding-bottom: 36vh;
     }
     .myContact div{
       padding-top: 17px;
@@ -26,13 +22,9 @@
     /* show element on medium-sized screens */
    
     .myContact{
-      padding-left: 25vw;
-      padding-top: 24vh;
-      padding-bottom: 28vh;
-    }
-    .myContact h1{
-      padding-right: 20vw;
-      padding-bottom: 2vh;
+      padding-left: 30vw;
+      margin-top: 26vh;
+      padding-bottom: 36vh;
     }
     .myContact div{
       padding-top: 17px;
@@ -47,17 +39,11 @@
     }
     @media only screen and (min-width: 1024px) {
         .myContact{
-            padding-left: 25vw;
-            padding-top: 20vh;
-            padding-bottom: 32vh;
-          }
-          .myContact h1{
-            padding-right: 20vw;
-            padding-bottom: 2vh;
+            padding-left: 70vh;
+            padding-top: 22vh;
+            padding-bottom: 35vh;
           }
           .myContact div{
-            padding-left: 12vw;
-            padding-right: 5vw;
             padding-top: 20px;
             text-align: left;
           }

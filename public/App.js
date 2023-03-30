@@ -6,6 +6,7 @@ import {Container, Navbar} from 'react-bootstrap';
 import Internaltabs from './components/internaltabs.js';
 import Footer from './components/footer';
 
+
 function App() {
   return (
     <div>

@@ -1,6 +1,5 @@
 import { Button,Container } from "react-bootstrap";
 import myService from "./Service.css";
-import myButton from "./Service.css";
 
 export default function Services(){
     return(
@@ -13,7 +12,7 @@ export default function Services(){
   <li>Integration of front end with back end</li>
   <li>Full Stack</li>
 </ol> 
-<Button className={{myButton}} variant="primary" onClick={()=>document.getElementById("justify-tab-example-tab-contact").click()}>Hire me</Button>{''}
+<Button variant="primary" onClick={()=>document.getElementById("justify-tab-example-tab-contact").click()}>Hire me</Button>{''}
 
         </Container>
     );

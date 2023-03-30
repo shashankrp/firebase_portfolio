@@ -1,0 +1,38 @@
+@media only screen and (max-width: 480px) {
+    .myHome{
+        margin-top: 5vh; 
+        margin-bottom: 1vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .myHome p{
+        font-size:18px;
+        font-weight: 500;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    /* show element on medium-sized screens */
+   
+        .myHome{
+            padding-top: 12vh; 
+            padding-bottom: 12vh;
+        }
+        .myHome p{
+            font-size:20px;
+            font-weight: 500;
+            text-align: justify;
+        }
+    }
+    @media only screen and (min-width: 1024px) {
+        .myHome{
+            padding-top: 12vh; 
+            padding-bottom: 18vh;
+          }
+        .myHome p{
+            font-size:25px;
+            font-weight: 500;
+            text-align: justify;
+        }
+    }

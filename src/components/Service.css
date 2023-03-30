@@ -1,0 +1,47 @@
+@media only screen and (max-width: 480px) {
+    /* hide element on small screens */
+    
+    .myService{
+        padding-top: 15vh; 
+        padding-left: 5vw;
+        padding-right: 15vw;
+        text-align: justify;
+        padding-bottom: 25vh;
+    }
+
+    .myService ol{
+        font-size: 20px; 
+        font-weight: 500;
+        text-align: "justify";
+    }
+    }
+    
+    @media only screen and (min-width: 480px) and (max-width: 1024px) {
+    /* show element on medium-sized screens */
+   
+    .myService{
+        padding-top: 15vh; 
+        padding-left: 5vw;
+        padding-right: 5vw;
+        text-align: justify;
+        padding-bottom: 20vh;
+    }
+    .myService ol{
+        font-size: 25px; 
+        font-weight: 500;
+        text-align: "justify";
+    }
+    }
+    @media only screen and (min-width: 1024px) {
+        .myService{
+            padding-top: 24vh; 
+            padding-left: 20vw;
+            padding-bottom: 24vh; 
+            text-align: left;
+          }
+        .myService ol{
+            font-size: 25px; 
+            font-weight: 600;
+            text-align: "justify";
+        }
+    }

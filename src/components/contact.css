@@ -1,0 +1,56 @@
+@media only screen and (max-width: 480px) {
+    /* hide element on small screens */
+    
+    .myContact{
+        padding-left: 10vh;
+        margin-top: 26vh;
+        padding-bottom: 36vh;
+    }
+    .myContact div{
+      padding-top: 17px;
+      text-align: left;
+    }
+
+    .myContact div a{
+      font-size: large;
+      text-align: justify;
+      padding-top: 2vh;
+    }
+    }
+    
+    @media only screen and (min-width: 480px) and (max-width: 1024px) {
+    /* show element on medium-sized screens */
+   
+    .myContact{
+      padding-left: 30vw;
+      margin-top: 26vh;
+      padding-bottom: 36vh;
+    }
+    .myContact div{
+      padding-top: 17px;
+      text-align: left;
+    }
+
+    .myContact div a{
+      font-size: large;
+      text-align: justify;
+      padding-top: 2vh;
+    }
+    }
+    @media only screen and (min-width: 1024px) {
+        .myContact{
+            padding-left: 70vh;
+            padding-top: 22vh;
+            padding-bottom: 35vh;
+          }
+          .myContact div{
+            padding-top: 20px;
+            text-align: left;
+          }
+
+          .myContact div a{
+            font-size: large;
+            text-align: justify;
+            padding-top: 2vh;
+          }
+    }
